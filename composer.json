@@ -1,0 +1,6 @@
+{
+    "require": {
+        "techone/database": "^0.2.0",
+        "envms/fluentpdo": "^2.1"
+    }
+}

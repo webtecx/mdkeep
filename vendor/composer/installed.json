@@ -1,0 +1,99 @@
+[
+    {
+        "name": "envms/fluentpdo",
+        "version": "v2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/envms/fluentpdo.git",
+            "reference": "3af5c02ec3d38654e0346029ccbcd8aca930a663"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/envms/fluentpdo/zipball/3af5c02ec3d38654e0346029ccbcd8aca930a663",
+            "reference": "3af5c02ec3d38654e0346029ccbcd8aca930a663",
+            "shasum": ""
+        },
+        "require-dev": {
+            "envms/fluent-test": "^1.0",
+            "phpunit/phpunit": "^7.0"
+        },
+        "time": "2018-10-30T11:53:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Envms\\FluentPDO\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0",
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "envms",
+                "homepage": "http://env.ms"
+            }
+        ],
+        "description": "FluentPDO is a quick and light PHP library for rapid query building. It features a smart join builder, which automatically creates table joins.",
+        "homepage": "https://github.com/envms/fluentpdo",
+        "keywords": [
+            "builder",
+            "database",
+            "db",
+            "dbal",
+            "fluent",
+            "mysql",
+            "oracle",
+            "pdo",
+            "query"
+        ]
+    },
+    {
+        "name": "techone/database",
+        "version": "v0.2",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/techoner/database.git",
+            "reference": "d78d2fa3543592d567bd52ee30cfbb17e5cd370e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/techoner/database/zipball/d78d2fa3543592d567bd52ee30cfbb17e5cd370e",
+            "reference": "d78d2fa3543592d567bd52ee30cfbb17e5cd370e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2018-11-28T14:11:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TechOne\\Database\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "TechLee",
+                "email": "techlee@qq.com"
+            }
+        ],
+        "description": "PDO database library",
+        "keywords": [
+            "database",
+            "framework",
+            "orm",
+            "pdo"
+        ]
+    }
+]
